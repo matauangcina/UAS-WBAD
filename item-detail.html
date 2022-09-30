@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="detail.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="detail.js" defer></script>
+    <script src="menu.js" defer></script>
+
+    <title>Purchase Management - Details</title>
+</head>
+
+<body>
+    <header>
+        <h1>UAS - Web Based Application Development (Aplikasi Pembelian)</h1>
+
+        <div class="dropdown">
+            <button class="valid link"><i class='valid bx bxs-user'></i><p class="valid">Administrator</p><i class='valid bx bxs-down-arrow'></i></button>
+            <div class="dropdown-menu">
+                <a href="login.html">Log out</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="navbar">
+            <div class="bx bx-menu" id="menu"></div>
+            <ul>
+                <a href="home.html"><li class="home"><i class='bx bxs-home'></i>Home</li></a>
+                <a href="user.html"><li class="user"><i class='bx bxs-user-circle'></i>User Management</li></a>
+                <a href="#"><li class="purchase active"><i class='bx bxs-shopping-bag'></i>Purchase Management</li></a>
+                <a href="#"><li class="vendor"><i class='bx bxs-package' ></i>Vendor Information</li></a>
+                <a href="#"><li class="article"><i class='bx bx-paperclip' ></i>Article</li></a>
+                <a href="#"><li class="soon"><i class='bx bxs-time' ></i>Coming Soon</li></a>
+            </ul>
+        </div>
+        <div class="wrapper">
+            <div class="fill">
+                <div class="content-1">
+                    <h1>Purchase Details</h1>
+                    <div class="border"></div>
+        
+                    <div class="title"><i class='bx bxs-purchase-tag'></i>Purchase Details</div>
+                </div>
+    
+                <div class="content-2">
+                    <div class="table">
+                        <div class="row">
+                            <div class="column first">Item No.</div>
+                            <div class="column second">:</div>
+                            <div class="column third"><input class="no" type="text" readonly></div>
+                        </div>
+                        <div class="row">
+                            <div class="column first">Purchase Order</div>
+                            <div class="column second">:</div>
+                            <div class="column third"><input class="order" type="text" readonly></div>
+                        </div>
+                        <div class="row">
+                            <div class="column first">Item Name</div>
+                            <div class="column second">:</div>
+                            <div class="column third"><input class="name" type="text" readonly></div>
+                        </div>
+                        <div class="row">
+                            <div class="column first">Vendor</div>
+                            <div class="column second">:</div>
+                            <div class="column third"><input class="vendor" type="text" readonly></div>
+                        </div>
+                        <div class="row">
+                            <div class="column first">Creator</div>
+                            <div class="column second">:</div>
+                            <div class="column third"><input class="creator" type="text" readonly></div>
+                        </div>
+                        <div class="row">
+                            <div class="column first">Date Created</div>
+                            <div class="column second">:</div>
+                            <div class="column third"><input class="created" type="date" readonly></div>
+                        </div>
+                        <div class="row">
+                            <div class="column first">Status</div>
+                            <div class="column second">:</div>
+                            <div class="column third"><input class="status" type="text" readonly></div>
+                        </div>
+                        <div class="row">
+                            <div class="column first">Quantity</div>
+                            <div class="column second">:</div>
+                            <div class="column third"><input class="quantity" type="number" readonly></div>
+                        </div>
+                        
+                    </div>
+                    <div class="table">
+                        <div class="row">
+                            <div class="column first">Delivery Date</div>
+                            <div class="column second">:</div>
+                            <div class="column third"><input class="delivery" type="date" readonly></div>
+                        </div>
+                        <div class="row">
+                            <div class="column first">Amount</div>
+                            <div class="column second">:</div>
+                            <div class="column third"><input class="amount" type="number" readonly></div>
+                        </div>
+                        <div class="row">
+                            <div class="column first">Image</div>
+                            <div class="column second">:</div>
+                            <div class="column preview third"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="edit-btn">
+                    <a href="edit-item.html" class="edit">Edit Details</a>
+                    <a href="item.html" class="back">Back</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

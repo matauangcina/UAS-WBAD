@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="menu.js" defer></script>
+
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <h1>UAS - Web Based Application Development (Aplikasi Pembelian)</h1>
+
+        <div class="dropdown">
+            <button class="valid link"><i class='valid bx bxs-user'></i><p class="valid">Administrator</p><i class='valid bx bxs-down-arrow'></i></button>
+            <div class="dropdown-menu">
+                <a href="login.html">Log out</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+
+        <div class="navbar">
+            <div class="bx bx-menu" id="menu"></div>
+            <ul>
+                <a href="#"><li class="home active"><i class='bx bxs-home'></i>Home</li></a>
+                <a href="user.html"><li class="user"><i class='bx bxs-user-circle'></i>User Management</li></a>
+                <a href="item.html"><li class="purchase"><i class='bx bxs-shopping-bag'></i>Purchase Management</li></a>
+                <a href="#"><li class="vendor"><i class='bx bxs-package' ></i>Vendor Information</li></a>
+                <a href="#"><li class="article"><i class='bx bx-paperclip' ></i>Article</li></a>
+                <a href="#"><li class="soon"><i class='bx bxs-time' ></i>Coming Soon</li></a>
+            </ul>
+        </div>
+
+        <div class="fill">
+            <div class="content-1">
+                <h1>Dashboard</h1>
+                <div class="border"></div>
+            </div>
+            
+            <div class="content-2">
+                <div class="title">
+                    <i class='bx bxs-palette'></i>Dashboard
+                </div>
+                <div class="details">
+                    <div class="item item-1">
+                        <div class="detail detail-1">
+                            <i class='bx bxs-group'></i>
+                            <div class="info">
+                                <h1>10</h1>
+                                <h3>User</h3>
+                            </div>
+                        </div>
+                        <div class="view-detail">
+                            View Details
+                            <a href="user.html"><i class='bx bxs-chevron-right-circle'></i></a>
+                        </div>
+                    </div>
+                    <div class="item item-2">
+                        <div class="detail detail-2">
+                            <i class='bx bxs-purchase-tag'></i>
+                            <div class="info">
+                                <h1>10</h1>
+                                <h3>Items</h3>
+                            </div>
+                        </div>
+                        <div class="view-detail">
+                            View Details
+                            <a href="item.html"><i class='bx bxs-chevron-right-circle'></i></a>
+                        </div>
+                    </div>
+                    <div class="item item-3">
+                        <div class="detail detail-3">
+                            <i class='bx bxs-data' ></i>
+                            <div class="info">
+                                <h1>10</h1>
+                                <h3>Articles</h3>
+                            </div>
+                        </div>
+                        <div class="view-detail">
+                            View Details
+                            <a href=""><i class='bx bxs-chevron-right-circle'></i></a>
+                        </div>
+                    </div>
+                    <div class="item item-4">
+                        <div class="detail detail-4">
+                            <i class='bx bxs-package' ></i>
+                            <div class="info">
+                                <h1>10</h1>
+                                <h3>Vendor</h3>
+                            </div>
+                        </div>
+                        <div class="view-detail">
+                            View Details
+                            <a href=""><i class='bx bxs-chevron-right-circle'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-3">
+                <div class="title">
+                    <i class='bx bxs-info-circle' ></i>User Information
+                </div>
+    
+                <div class="info-table">
+                    <div class="table">
+                        <div class="data">
+                            <div id="head">Full Name</div>
+                            <div class="second">:</div>
+                            <div>Administrator</div>
+                        </div>
+                        <div class="data">
+                            <div id="head">Username</div>
+                            <div class="second">:</div>
+                            <div>admin</div>
+                        </div>
+                        <div class="data">
+                            <div id="head">Email</div>
+                            <div class="second">:</div>
+                            <div>admin@gmail.com</div>
+                        </div>
+                        <div class="data">
+                            <div id="head">Phone Number</div>
+                            <div class="second">:</div>
+                            <div>081234251625</div>
+                        </div>
+                        <div class="data">
+                            <div id="head">Address</div>
+                            <div class="second">:</div>
+                            <div>Admin Street</div>
+                        </div>
+                    </div>
+                    <div class="table">
+                        <div class="data">
+                            <div id="head">Nationality</div>
+                            <div class="second">:</div>
+                            <div>Korea</div>
+                        </div>
+                        <div class="data">
+                            <div id="head">Last Login</div>
+                            <div class="second">:</div>
+                            <div>2022-07-12</div>
+                        </div>
+                        <div class="data">
+                            <div id="head">IP Address</div>
+                            <div class="second">:</div>
+                            <div>39.244.33.237</div>
+                        </div>
+                        <div class="data">
+                            <div id="head">Browser</div>
+                            <div class="second">:</div>
+                            <div>Opera Mini</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+</html>
